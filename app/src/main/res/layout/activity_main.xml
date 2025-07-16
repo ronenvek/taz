@@ -19,6 +19,18 @@
         app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageButton
+        android:id="@+id/showPasswordButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_view"
+        android:contentDescription="Toggle password visibility"
+        app:layout_constraintBottom_toBottomOf="@id/passwordInput"
+        app:layout_constraintStart_toEndOf="@id/passwordInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp"/>
+
     <Button
         android:id="@+id/loginButton"
         android:layout_width="109dp"
